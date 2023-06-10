@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  #memeContainer {
+    position: relative;
+    margin: 50px auto;
+    max-width: 500px;
+  }
+  
+  #memeImage {
+    max-width: 100%;
+  }
+  
+  #topText, #bottomText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    pointer-events: none;
+  }
+  
+  #topText {
+    top: 10px;
+  }
+  
+  #bottomText {
+    bottom: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  

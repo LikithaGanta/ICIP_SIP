@@ -1,0 +1,38 @@
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .parallax-layer {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    height: 100%;
+  }
+  
+  .background-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3244c86419555.5d98d69142922.gif');
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+  }
+  
+  .foreground-layer {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }

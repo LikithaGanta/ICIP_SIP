@@ -1,0 +1,13 @@
+.editor-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .code-editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 33.33%;
+    height: 200px;
+    overflow: auto;
+  }
+  
